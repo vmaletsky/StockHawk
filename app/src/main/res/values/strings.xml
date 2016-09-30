@@ -10,4 +10,19 @@
   <string name="input_hint">FB</string>
   <string name="input_prefill"></string>
   <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+  <string name="stock_not_fount_toast">Cannot find stock symbol</string>
+  <string name="error_intent_filter" translatable="false">error</string>
+  <string name="cannot_find_stock_message">Cannot find stock symbol</string>
+  <string name="incorrect_input_message">Incorrect input</string>
+  <string name="symbol_param" translatable="false">symbol</string>
+  <string name="periodic_tag" translatable="false">periodic</string>
+  <string name="message_param" translatable="false">message</string>
+  <string name="tag_param" translatable="false">tag</string>
+  <string name="stock_exists_message">This stock is already saved!</string>
+  <string name="chartLabel">Stock Price</string>
+  <string name="chart_description">Stock Price</string>
+  <string name="add_tag" translatable="false">add</string>
+  <string name="error_message_key" translatable="false">error</string>
+  <string name="init_tag" translatable="false">init</string>
+  <string name="add_stock_description">Add stock</string>
 </resources>
