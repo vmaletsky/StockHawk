@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk;
+package com.sam_chordas.android.stockhawk.ui;
 
 import com.github.mikephil.charting.formatter.AxisValueFormatter;
 
@@ -10,9 +10,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by Yasir on 02/06/16.
- */
 public class DateAxisValueFormatter implements AxisValueFormatter
 {
 
@@ -59,7 +56,7 @@ public class DateAxisValueFormatter implements AxisValueFormatter
             return mDataFormat.format(mDate);
         }
         catch(Exception ex){
-            return "xx";
+            return "";
         }
     }
 }

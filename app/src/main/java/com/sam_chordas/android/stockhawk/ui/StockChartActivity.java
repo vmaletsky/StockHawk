@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.Chart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.data.Entry;
@@ -15,7 +14,6 @@ import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.formatter.AxisValueFormatter;
 import com.github.mikephil.charting.utils.EntryXComparator;
-import com.sam_chordas.android.stockhawk.DateAxisValueFormatter;
 import com.sam_chordas.android.stockhawk.R;
 import com.sam_chordas.android.stockhawk.historicaldata.HistoricalData;
 import com.sam_chordas.android.stockhawk.historicaldata.Quote;
